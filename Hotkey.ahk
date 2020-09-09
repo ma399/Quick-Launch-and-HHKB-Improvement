@@ -1,10 +1,6 @@
 #SingleInstance force
 
 ;singe script
-
-
-
-
 ;——————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 ;paths and parameters
@@ -73,6 +69,9 @@ RShift & ]::
 return
 
 
+; volume control
+Tab & a::Send {Volume_Up}
+Tab & s::Send {Volume_Down} 
 
 ; Maximize
 RShift & m::#up 
